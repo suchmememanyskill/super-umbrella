@@ -1,0 +1,27 @@
+- **User Guide**
+- [Getting Started](user_guide/getting_started.md)
+- [RCM](user_guide/rcm.md)
+- **EMUMMC**
+- [Entering RCM](user_guide/emummc/entering_rcm.md)
+- [Sending a payload](user_guide/emummc/sending_payload.md)
+- [Partitioning the SD](user_guide/emummc/partitioning_sd.md)
+- [SD preparations](user_guide/emummc/sd_preparation.md)
+- [Making the emuMMC](user_guide/emummc/making_emummc.md)
+- [Launching CFW](user_guide/emummc/launching_cfw.md)
+- **Extras**
+- [Blocking Updates](extras/blocking_updates.md)
+- [Restoring a NAND Backup](extras/nandrestore.md)
+- [AutoRCM](extras/autorcm.md)
+- [Dumping Title Keys](extras/dumping_title_keys.md)
+- [Theming](extras/theming.md)
+- [Save Management](extras/save_management.md)
+- [Game Modding](extras/game_modding.md)
+- [Linux injection without root](extras/adding_udev.md)
+- [Showing File Name Extensions (Windows)](extras/showing_file_extensions.md)
+- [Alternate Boot Setups](extras/alternate_bootsetups.md)
+- [RCM Payload Injectors Information](extras/rcm_injectors.md)
+- [Updating CFW](extras/updating.md)
+- [Glossary](extras/glossary.md)
+- **Misc**
+- [FAQ](faq.md)
+- [About](about.md)

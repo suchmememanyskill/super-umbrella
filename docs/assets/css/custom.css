@@ -1,0 +1,36 @@
+.alert.callout {
+    border: 1px solid !important;
+    background-color: var(--blockquote-background) !important;
+    border-left-width: .25rem !important;
+}
+
+.alert.callout.info, .alert.callout.tip, .alert.callout.warning, .alert.callout.danger {
+    border-color: var(--blockquote-background) !important;
+}
+
+.alert.callout.info .title, .alert.callout.info {
+    border-left-color: #17a2b8!important;
+}
+
+:root {
+    --blockquote-border-color: #17a2b8;
+    --content-max-width: 60em;
+    --code-inline-background: #464951;
+}
+
+table {
+    border: 5px solid;
+    border-color: var(--blockquote-background);
+}
+
+.warn::before {
+    visibility: hidden;
+}
+
+.warn {
+    padding-left: 20px !important;
+}
+
+.medium-zoom-image {
+    z-index: 999;
+}
