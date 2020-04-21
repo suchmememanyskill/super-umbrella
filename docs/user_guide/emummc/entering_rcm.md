@@ -118,4 +118,4 @@ Here is an example from Sonlen#1414 on our Discord server.
 
 -----
 
-#### [Continue to Sending a Payload <i class="fa fa-arrow-circle-right fa-lg"></i>](sending_payload.md)
+### [Continue to Sending a Payload <i class="fa fa-arrow-circle-right fa-lg"></i>](user_guide/emummc/sending_payload.md) {docsify-ignore}
