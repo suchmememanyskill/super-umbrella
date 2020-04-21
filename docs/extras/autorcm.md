@@ -1,4 +1,4 @@
-## AutoRCM {docsify-ignore}
+# AutoRCM {docsify-ignore}
 
 > [!NOTE|label:What is AutoRCM]
 > AutoRCM is a controlled brick, bricking a part of the boot0/1 to make the console believe it's bricked and boot straight to RCM (recovery mode). This means that if you're not careful around AutoRCM, you can end up **damaging** your console. Please take care when using AutoRCM.
