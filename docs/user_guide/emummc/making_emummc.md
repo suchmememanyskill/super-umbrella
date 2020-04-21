@@ -1,6 +1,9 @@
 # Making the Emummc, getting keys, and making essential backups 
 
-&nbsp;
+> [!WARNING]
+> It is critical to make these backups. Do not skip these steps.
+
+-----
 
 ### Making the emuMMC
 
