@@ -34,7 +34,7 @@ Now that the device is in RCM, we will need to send it a payload. The methods ar
 >    6. Click `Inject payload` to launch the payload you selected.
 
 &nbsp;
-#### **MacOS**
+#### **MacOS / Linux**
 
 > [!TIP|label:What you need]
 >    - The latest release of <a href="https://github.com/nh-server/fusee-interfacee-tk/releases" target="_blank">fusee-interfacee-tk</a>
@@ -82,7 +82,7 @@ Now that the device is in RCM, we will need to send it a payload. The methods ar
 >        - The first time you read this page you should inject TegraExplorer.bin.
 
 
-#### **Chomebook**
+#### **Chromebook**
 
 > [!TIP|label:What you need]
 >    - A USB-C cable
