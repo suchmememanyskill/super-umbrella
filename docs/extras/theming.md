@@ -1,31 +1,25 @@
-# Theming
+# Theming {docsify-ignore}
 
 You can create unique styles and layouts for your Switch Home Menu.
 
-&nbsp;
+> ![ExampleSwitchTheme](../extras/img/switch_theming.jpg)
 
-!!! tip ""
-	![ExampleSwitchTheme](../extras/img/switch_theming.jpg)
+> [!TIP|label:What to follow]
+> Follow the [Making a theme](#making-a-theme-windows) section if you want to make a theme.
+>
+> Follow the [Installing a theme](#installing-a-theme) section if you want to install a theme
+>
+> Follow the [Installing a custom font](#installing-a-custom-font) section if you want to install a custom font
 
-!!! tip "What to follow"
-	Follow the `Making a theme` section if you want to make a theme.
+-----
 
-	Follow the `Installing a theme` section if you want to install a theme
+### Making a theme (Windows)
 
-	Follow the `Installing a custom font` sectio
-	n if you want to install a custom font
+> [!TIP|label:What you need]
+> The latest release of <a href="https://github.com/exelix11/SwitchThemeInjector/releases" target="_blank">**Switch Theme Injector**</a>
+>
+> - You need to download the `ReleaseVx.x.zip` on the download page
 
-&nbsp;
-
-## Making a theme (Windows)
-
-### What you need
-
-The latest release of <a href="https://github.com/exelix11/SwitchThemeInjector/releases" target="_blank">**Switch Theme Injector**</a>
-
-- You need to download the `ReleaseVx.x.zip` on the download page
-
-### Making the theme
 
 1. Unzip `ReleaseVx.x.zip` to somewhere on your pc's drive.
 2. Open up the `SwitchThemes.exe` app. Navigate to `NXTheme Builder`.
@@ -33,11 +27,9 @@ The latest release of <a href="https://github.com/exelix11/SwitchThemeInjector/r
 4. Fill out the details in the window that pops up. After filling out this window and clicking ok, you will get asked where to save the NXTheme file. Save this file to a temporary folder.
 5. Repeat step 3 and 4 for every Home Menu part of the Switch you want to modify.
 
-&nbsp;
+-----
 
-## Making a theme (Mac / Linux)
-
-### Making the theme
+### Making a theme (Mac / Linux)
 
 Make sure that the images you want to use are 1280x720 and in JPG!
 
@@ -47,15 +39,15 @@ Make sure that the images you want to use are 1280x720 and in JPG!
 4. Your browser will prompt you to download a file. Save this file to a temporary folder.
 5. Repeat step 2 to 4 for every Home Menu part of the Switch you want to modify.
 	
-&nbsp;
+-----
 
-## Installing a theme
+### Installing a theme
 
-!!! tip "Community Themes"
-	If you want to use community themes, for example from the <a href="https://www.reddit.com/r/NXThemes/" target="_blank">**r/NXThemes**</a>, you can follow the guide below to install a community provided nxtheme
+> [!NOTE|label:Community Themes]
+> If you want to use community themes, for example from the <a href="https://www.reddit.com/r/NXThemes/" target="_blank">**r/NXThemes**</a>, you can follow the guide below to install a community provided nxtheme
 
-!!! tip "Homebrew app store"
-	If you want to use the homebrew app store for themes, you can simply install the theme you want via the appstore, and follow the instructions from step 2 onwards below.
+> [!NOTE|label:Homebrew app store]
+> If you want to use the homebrew app store for themes, you can simply install the theme you want via the appstore, and follow the instructions from step 2 onwards below.
 
 1. Copy the `.nxtheme` files to the `themes` folder on your sd card (It is recommended you put them into their own folders, e.g. /themes/awesome_theme/awesome.nxtheme).
 	- Create the `themes` folder on the root of your sd card if it does not exist.
@@ -64,19 +56,18 @@ Make sure that the images you want to use are 1280x720 and in JPG!
 3. Your theme files should be listed here. You can install them one by one.
 4. Reboot your switch to see the changes.
 
-&nbsp;
+-----
 
-## Installing a custom font
+### Installing a custom font
 
 1. Put a font in the .ttf file format into the `themes` folder (It is recommended you put them into their own folders, e.g. /themes/cool_font/font.ttf).
 2. Boot Switch CFW, launch the Homebrew Menu and launch `NXThemes Installer`.
 3. Find your font and install it.
 4. Reboot your switch to see the changes.
 
+-----
 
-&nbsp;
-
-## Troubleshooting:
+### Troubleshooting
 My Switch crashes on boot after I installed a theme!:
 
 - You installed a bad theme. You can remove it by going into the `/atmosphere/titles/0100000000001000/romfs/lyt` and deleting every file in that folder.

@@ -77,4 +77,4 @@ The following information is based on [this GBATemp thread](https://gbatemp.net/
 
 -----
 
-#### [If your Switch is not patched, continue to RCM <i class="fa fa-arrow-circle-right fa-lg"></i>](user_guide/rcm.md) {docsify-ignore}
+### [If your Switch is not patched, continue to RCM <i class="fa fa-arrow-circle-right fa-lg"></i>](user_guide/rcm.md) {docsify-ignore}

@@ -4,11 +4,14 @@ This page documents how you can keep your system up-to-date.
 
 After following our guide, your system will consist of three core elements that can be updated. Atmosphere, Hekate and your system firmware.
 
-## Updating Atmosphere
+
+### Updating Atmosphere
 
 When updating Atmosphere always make sure to _read the release notes_. They may list important changes and modifications to your system.
 
-### Manual method: SD card
+<!-- tabs:start -->
+
+#### **Manual method**
 
 When a new version of Atmosphere releases, you can always update Atmosphere by following these steps:
 
@@ -21,16 +24,19 @@ When a new version of Atmosphere releases, you can always update Atmosphere by f
 5. Place your copy of `reboot_payload.bin` in the `atmosphere` folder. If you are prompted to overwrite files, do so.
 6. Put your SD card back in your Switch and launch CFW.
 
-### Automated method: atmosphere-updater
+#### **Automated method: atmosphere-updater**
 
-It is also possible to update Atmosphere and Hekate through a homebrew utility called `atmosphere-updater`. This utility should be installed if you followed our guide.
+> [!NOTE]
+> It is also possible to update Atmosphere and Hekate through a homebrew utility called `atmosphere-updater`. This utility should be installed if you followed our guide.
+>
+> If you did not install this utility, you can download it from <a href="https://github.com/ITotalJustice/atmosphere-updater/releases" target="_blank">here</a> or from the homebrew appstore.
+> 
+> Updating your Atmosphere and Hekate installation using atmosphere-updater:
 
-If you did not install this utility, you can download it from <a href="https://github.com/ITotalJustice/atmosphere-updater/releases" target="_blank">here</a> or from the homebrew appstore.
+> [!WARNING]
+> Always update Atmosphere and Hekate together when using atmosphere-updater! Otherwise your `reboot_payload.bin` will not correctly be preserved.
 
-Updating your Atmosphere and Hekate installation using atmosphere-updater:
-
-!!! tip ""
-    - Always update Atmosphere and Hekate together when using atmosphere-updater! Otherwise your `reboot_payload.bin` will not correctly be preserved.
+-----
 
 1. Open the Homebrew menu
 2. Open `Atmosphere-Updater`.
@@ -43,11 +49,15 @@ Updating your Atmosphere and Hekate installation using atmosphere-updater:
 9. Press `A`.
 10. You can now select your launch option in Hekate.
 
-## Updating Hekate
+<!-- tabs:end -->
+
+### Updating Hekate
 
 When updating Hekate always make sure to _read the release notes_. They may list important changes and modifications to your system.
 
-### Manual method: SD card
+<!-- tabs:start -->
+
+#### **Manual method**
 
 When a new version of Hekate releases, you can always update by following these steps:
 
@@ -59,16 +69,19 @@ When a new version of Hekate releases, you can always update by following these 
 6. Rename Hekate's `.bin` file to `reboot_payload.bin`.
 7. Put your SD card back in your Switch and launch CFW.
 
-### Automated method: atmosphere-updater
+#### **Automated method: atmosphere-updater**
 
-It is also possible to update Atmosphere and Hekate through a homebrew utility called `atmosphere-updater`. This utility should be installed if you followed our guide. 
+> [!NOTE]
+> It is also possible to update Atmosphere and Hekate through a homebrew utility called `atmosphere-updater`. This utility should be installed if you followed our guide.
+>
+> If you did not install this utility, you can download it from <a href="https://github.com/ITotalJustice/atmosphere-updater/releases" target="_blank">here</a> or from the homebrew appstore.
+> 
+> Updating your Atmosphere and Hekate installation using atmosphere-updater:
 
-If you did not install this utility, you can download it from <a href="https://github.com/ITotalJustice/atmosphere-updater/releases" target="_blank">here</a> or from the homebrew appstore.
+> [!WARNING]
+> Always update Atmosphere and Hekate together when using atmosphere-updater! Otherwise your `reboot_payload.bin` will not correctly be preserved.
 
-Updating your Atmosphere and Hekate installation using atmosphere-updater:
-
-!!!tip ""
-    - Always update Atmosphere and Hekate together when using atmosphere-updater! Otherwise your `reboot_payload.bin` will not correctly be preserved.
+-----
 
 1. Open the Homebrew menu
 2. Open `Atmosphere-Updater`.
@@ -81,7 +94,11 @@ Updating your Atmosphere and Hekate installation using atmosphere-updater:
 9. Press `A`.
 10. You can now select your launch option in Hekate.
 
-## Updating your firmware
+<!-- tabs:end -->
+
+-----
+
+### Updating your firmware
 
 Always check _before_ updating your system firmware if the latest version of Atmosphere _as well_ as the latest version of Hekate support the firmware version you are updating towards.
 
@@ -109,25 +126,27 @@ sysMMC and emuMMC have separate system firmwares and need to be updated separate
 
 If you keep your emuMMC offline, you will have to use a gamecard to update your system firmware, synchronize it with another Nintendo Switch or dump an updated firmware from your sysMMC.
 
-## Updating emuMMC by dumping an updated firmware from your sysMMC
+-----
 
-!!!warning "Do you have an eMMC backup yet?"
-    Please do not start this guide without doing a RAW GPP and a BOOT 0/1 eMMC backup!
+### Updating emuMMC by dumping an updated firmware from your sysMMC
 
-    You can learn how to make one [here](../user_guide/sysnand/making_essential_backups.md).
+> [!WARNING|label:Do you have an eMMC backup yet]
+> Please do not start this guide without doing a RAW GPP and a BOOT 0/1 eMMC backup!
+>
+> You can learn how to make one [here](../user_guide/sysnand/making_essential_backups.md).
 
-!!!danger "Downgrading"
-    This guide is made for updating your emuMMC. It is **not** for downgrading. Downgrading at all, sysMMC or emuMMC, is not recommended and not worth it. Downgrading is also very dangerous and can lead to serious complications even when performed correctly.
+> [!DANGER|label:Downgrading]
+> This guide is made for updating your emuMMC. It is **not** for downgrading. Downgrading at all, sysMMC or emuMMC, is not recommended and not worth it. Downgrading is also very dangerous and can lead to serious complications even when performed correctly.
 
-### What you will need
+> [!DANGER]
+> ChoiDujourNX is **not** the same as ChoiDujour. Please make sure you download ChoiDujour**NX**!
 
-!!!tip ""
-    - The latest release of <a href="https://github.com/suchmememanyskill/TegraExplorer/releases" target="_blank">TegraExplorer</a>
-    - The latest release of <a href="https://switchtools.sshnuke.net" target="_blank">ChoiDujourNX</a>
-    - The latest release of <a href="https://github.com/Atmosphere-NX/Atmosphere/releases" target="_blank">Atmosphere</a>
+-----
 
-!!!danger ""
-    ChoiDujourNX is **not** the same as ChoiDujour. Please make sure you download ChoiDujour**NX**!
+> [!TIP|label:What you will need]
+> - The latest release of <a href="https://github.com/suchmememanyskill/TegraExplorer/releases" target="_blank">TegraExplorer</a>
+> - The latest release of <a href="https://switchtools.sshnuke.net" target="_blank">ChoiDujourNX</a>
+> - The latest release of <a href="https://github.com/Atmosphere-NX/Atmosphere/releases" target="_blank">Atmosphere</a>
 
 ### Preparing your SD card
 

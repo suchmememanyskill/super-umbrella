@@ -2,18 +2,20 @@
 
 This section details how to add an udev rule to let you send a payload to the Nintendo Switch without needing to use `sudo`.
 
-!!! tip ""
-    The following instructions are not for beginners. Only do this if you are confident in what you are doing.
+> [!DANGER]
+> The following instructions are not for beginners. Only do this if you are confident in what you are doing.
 
-!!! tip ""
-    The following instructions only work if you have a system that implements `udev`. Most modern distros come with `systemd` already installed, which includes a `udev` implementation.
+> [!NOTE]
+> The following instructions only work if you have a system that implements `udev`. Most modern distros come with `systemd` already installed, which includes a `udev` implementation.
+>
+> There are differing implementations of the following commands on different distros. The commands below are assumed to be ran on Ubuntu. Check your distros manual if you are not running Ubuntu for the equivalent commands.
 
-    There are differing implementations of the following commands on different distros. The commands below are assumed to be ran on Ubuntu. Check your distros manual if you are not running Ubuntu for the equivalent commands.
+> [!WARNING]
+> Do the following instructions while your Switch is _not_ connected to your computer.
 
-!!! tip ""
-    Do the following instructions while your Switch is _not_ connected to your computer.
+-----
 
-## Creating a new group
+### Creating a new group
 
 To start, we will create a new group and add ourselves to it. The group the Nintendo Switch device will be owned by on Linux will be set to this group.
 
@@ -23,7 +25,7 @@ To start, we will create a new group and add ourselves to it. The group the Nint
 4. Enter the following command: `sudo usermod -a -G nintendo_switch $USER`. Make sure that the `G` is capitalized!
 5. Close the terminal.
 
-## Adding a udev rule
+### Adding a udev rule
 
 Next we're gonna add a new udev rule. udev is a device manager for the linux kernel. The rule we're gonna specify is that if the Switch is connected in RCM mode, the group the Switch belongs to will be the group we made in the previous section.
 
