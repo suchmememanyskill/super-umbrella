@@ -24,6 +24,12 @@ table {
     border-color: var(--blockquote-background);
 }
 
+@media only screen and (max-width: 1770px) {
+    .table-wrapper {
+        overflow-x: auto;
+    }
+}
+
 .warn::before {
     visibility: hidden;
 }
