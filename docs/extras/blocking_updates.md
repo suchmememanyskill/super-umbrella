@@ -15,7 +15,7 @@ We will be using [90DNS](https://gitlab.com/a/90dns), a community-run custom DNS
 > This only will work on connections with a password. If you have an open network, try via the manual setup page in the internet tab
 
 1. Go to the Settings applet, and then to the Internet tab.
-2. Select the WiFi network you want to connect to, and enter an incorrect password of equal length.
+2. Select the WiFi network you want to connect to, and enter an incorrect password that's 8 characters in size.
 3. When asked to re-enter the password, click on `Change settings`
 4. Change DNS Settings to Manual.
 5. Pick the Server that is the closest to your device out of the below chart and enter its Primary and Secondary DNS into your connection.
