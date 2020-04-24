@@ -33,7 +33,7 @@ The homebrew community has crowdsourced a list of known serial numbers which are
 
 The following information is based on [this GBATemp thread](https://gbatemp.net/threads/switch-informations-by-serial-number-read-the-first-post-before-asking-questions.481215/).
 
-|  Serial Numbers  | <span style="color:green">Unpatched</span> | <span style="color:orange">Potentially patched</span> | <span style="color:red">Patched</span> |
+|  Serial Numbers  | Unpatched | Potentially patched | Patched |
 | :----|:---------------------------------|:---------------------------------|:----------------------|
 | XAW1 | XAW10000000000 to XAW10074000000 | XAW10074000000 to XAW10120000000 | XAW10120000000 and up |
 | XAW4 | XAW40000000000 to XAW40011000000 | XAW40011000000 to XAW40012000000 | XAW40012000000 and up |
