@@ -10,24 +10,26 @@ We will be using [90DNS](https://gitlab.com/a/90dns), a community-run custom DNS
 
 <!-- tabs:start -->
 
-#### **Set up a new connection**
+### **Setting up a new connection via WiFi**
 > [!WARNING]
-> This only will work on connections with a password. If you have an open network, try via the manual setup page in the internet tab
+> Not all WiFi networks require a password to connect. If your network does not use one, you can use the `Manual Setup` option, located at the very bottom of the `Internet Settings` screen below all other WiFi networks.
 
-1. Go to the Settings applet, and then to the Internet tab.
-2. Select the WiFi network you want to connect to, and enter an incorrect password that's 8 characters in size.
-3. When asked to re-enter the password, click on `Change settings`
-4. Change DNS Settings to Manual.
-5. Pick the Server that is the closest to your device out of the below chart and enter its Primary and Secondary DNS into your connection.
-6. Edit your password to the correct password
-7. Save Settings and test connection.
+1. Select your WiFi network from the list of networks.
+2. Enter an **incorrect** password that is 8 characters long and press `OK`.
+3. After a few moments of attempting to connect, the console will display a connection error.
+4. Press `OK` to close the error message.
+5. Press `Close` when it offers to display more details about the error.
+6. When asked if you want to re-enter the password, pick `View Settings`.
+7. Change `DNS Settings` to `Manual`.
+8. Pick the server that is the closest to your location out of the below chart and enter its `Primary` and `Secondary` DNS into your connection settings.
+9. Enter the correct password for your WiFi connection.
+10. Save the settings and test the connection.
 
-#### **Edit an existing connection**
-1. Go to the Settings applet, and then to the Internet tab.
-2. Select the WiFi network you are connected to and click `Change Settings`.
-3. Change DNS Settings to Manual.
-4. Pick the Server that is the closest to your device out of the below chart and enter its Primary and Secondary DNS into your connection.
-5. Save Settings and test connection.
+#### **Editing an existing WiFi connection**
+1. Select your existing WiFi network from the list of networks.
+2. Select `Change Settings`.
+3. Pick the server that is the closest to your location out of the below chart and enter its Primary and Secondary DNS into your connection settings.
+4. Save the settings and test the connection.
 
 <!-- tabs:end -->
    
